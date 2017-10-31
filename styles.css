@@ -1,0 +1,57 @@
+#ctverce {
+    width:800px;
+    height:170px;
+    display:flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+#ctverce>a {
+    width:200px;
+    height:150px;
+    margin:10px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    
+}
+
+
+
+#objekt1 {
+    background-color: red;
+    order: 1;
+
+}
+
+#objekt1:focus {
+    align-self: flex-end;
+    order:5;
+    transition-timing-function: ease-out;
+   
+}
+
+#objekt2 {
+    background-color:blue;
+    order:2;
+
+}
+#objekt2:focus {
+    align-self: flex-end;
+    order:5;
+    transition-timing-function: ease-out;
+   
+}
+#objekt3 {
+    background-color: green;
+    order:3;
+}
+#objekt3:focus {
+    align-self: flex-end;
+    order:5;
+    transition-timing-function: ease-out;
+   
+}
